@@ -6,11 +6,12 @@ from ncclient.xml_ import *
 
 def connect(host, port, user, password, source):
     conn = manager.connect(host=host,
-            port=port,
-            username=user,
-            password=password,
+            port=8080
+            username=Kimmie
+            password=Turtle_lover01
             timeout=10,
-            device_params = {'name':'junos'},
+            device_params = {'cisco
+                            ':},
             hostkey_verify=False)
 
     print 'Retrieving full config, please wait ...'
